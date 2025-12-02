@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aathi kavin c | Portfolio</title>
+    <link rel="stylesheet" href="sbss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="#" class="logo">AK<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="#contact" class="btn-primary" style="padding: 10px 25px; font-size: 0.9rem;">Hire Me</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">
+                <i class="fa-solid fa-circle" style="font-size: 8px; color: #22c55e;"></i>
+                Available for freelance work
+            </div>
+            <h1>Hi, I'm <span class="text-orange">Aathi kavin </span></h1>
+            <p>UI/UX Designer & Developer crafting <strong>delightful digital <br> experiences</strong> that users love</p>
+            <div class="mouse-scroll">
+                <div class="mouse-wheel"></div>
+            </div>
+            <div class="hero-btns">
+                <button class="btn-primary" onclick="document.getElementById('projects').scrollIntoView()">
+                    View My Work <i class="fa-solid fa-arrow-down" style="margin-left: 8px; font-size: 0.8rem;"></i>
+                </button>
+                <button class="btn-dark" onclick="document.getElementById('contact').scrollIntoView()">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container about-grid">
+            <div class="about-visual">
+                <span class="ak-text">AK</span>
+                <div class="visual-badge"><i class="fa-solid fa-bolt"></i> Open to Work</div>
+                <div class="about-quote">"Design is not just what it looks like. Design is how it works." <span>— Steve Jobs</span></div>
+            </div>
+            <div class="about-info">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">About <span class="text-orange">Me</span></h2>
+                <p style="color:#888; margin-bottom: 30px; line-height: 1.7;">
+                    I'm a passionate UI/UX designer and developer who transforms complex problems into elegant, user-centered solutions.
+                </p>
+                <div class="info-row">
+                    <div class="icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div><h4 style="margin:0;">Education</h4><span style="color:#666; font-size:0.9rem;">B.Voc Multimedia and Animation</span></div>
+                </div>
+            
+                <div class="info-row">
+                    <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                    <div><h4 style="margin:0;">Location</h4><span style="color:#666; font-size:0.9rem;">Coimbatore,Tamil Nadu</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="text-orange">Skills</span></h2>
+            <p class="section-subtitle">A blend of design expertise and technical prowess</p>
+            <div class="skills-grid">
+                <div class="skill-card" style="--theme: #e91e63; --w: 95%">
+                    <div class="s-icon-box"><i class="fa-brands fa-figma"></i></div>
+                    <div class="skill-info"><h3>Figma</h3><p>Design systems, prototyping</p></div>
+                    <div class="progress-wrap"><div class="p-bar"><div class="p-fill"></div></div><span>95%</span></div>
+                </div>
+                <div class="skill-card" style="--theme: #ff5722; --w: 92%">
+                    <div class="s-icon-box"><i class="fa-solid fa-pen-nib"></i></div>
+                    <div class="skill-info"><h3>UI Design</h3><p>Visual design, typography</p></div>
+                    <div class="progress-wrap"><div class="p-bar"><div class="p-fill"></div></div><span>92%</span></div>
+                </div>
+                <div class="skill-card" style="--theme: #03a9f4; --w: 88%">
+                    <div class="s-icon-box"><i class="fa-solid fa-users"></i></div>
+                    <div class="skill-info"><h3>UX Research</h3><p>User interviews, personas</p></div>
+                    <div class="progress-wrap"><div class="p-bar"><div class="p-fill"></div></div><span>80%</span></div>
+                </div>
+                <div class="skill-card" style="--theme: #00c853; --w: 85%">
+                    <div class="s-icon-box"><i class="fa-solid fa-code"></i></div>
+                    <div class="skill-info"><h3>Frontend Dev</h3><p>Html,Css,Javascript</p></div>
+                    <div class="progress-wrap"><div class="p-bar"><div class="p-fill"></div></div><span>90%</span></div>
+                </div>
+                <div class="skill-card" style="--theme: #6200ea; --w: 90%">
+                    <div class="s-icon-box"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <div class="skill-info"><h3>Graphic designer</h3><p>Photoshop, Illustrator,InDesign </p></div>
+                    <div class="progress-wrap"><div class="p-bar"><div class="p-fill"></div></div><span>90%</span></div>
+                </div>
+                <div class="skill-card" style="--theme: #ffab00; --w: 93%">
+                    <div class="s-icon-box"><i class="fa-solid fa-bolt"></i></div>
+                    <div class="skill-info"><h3>Prototyping</h3><p>Micro-interactions</p></div>
+                    <div class="progress-wrap"><div class="p-bar"><div class="p-fill"></div></div><span>93%</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee-section">
+        <div class="marquee-content">
+            <span class="marquee-item">Sketch</span><span class="marquee-item">Framer</span>
+            <span class="marquee-item">React</span><span class="marquee-item">JavaScript</span>
+            <span class="marquee-item">Tailwind</span><span class="marquee-item">Html</span>
+            <span class="marquee-item">Premiere pro</span><span class="marquee-item">After Effects</span>
+            <span class="marquee-item">Figma</span><span class="marquee-item">Adobe XD</span>
+            <span class="marquee-item">Css</span><span class="marquee-item">InDesign</span>
+            <span class="marquee-item">Illustrator</span><span class="marquee-item">Photoshop</span>
+        </div>
+    </div>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="projects-header">
+                <div>
+                    <h2 class="section-title" style="margin-bottom: 10px; text-align: left;">Featured <span class="text-orange">Projects</span></h2>
+                    <p style="color:#888;">A selection of my recent work showcasing user-centered design.</p>
+                </div>
+                <a href="#" class="view-all">View All Projects <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" style="--theme: linear-gradient(135deg, #00b09b, #96c93d); --glow: #00b09b;">
+                    <div class="view-btn"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="pc-content">
+                        <div class="pc-top"><span class="pc-badge">UI/UX Design</span><span class="pc-badge">2025</span></div>
+                        <div class="pc-mid"><h3>App Redesign</h3><p>Most popular app redesign with smooth....</p></div>
+                        <div class="pc-tech"><span>Figma</span><span>Adobe XD</span></div>
+                    </div>
+                </div>
+                <div class="project-card" style="--theme: linear-gradient(135deg, #8e2de2, #4a00e0); --glow: #8e2de2;">
+                    <div class="view-btn"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="pc-content">
+                        <div class="pc-top"><span class="pc-badge">Mobile</span><span class="pc-badge">2024</span></div>
+                        <div class="pc-mid"><h3>Meditopia App</h3><p>Meditation app redesign focusing on accessibility.</p></div>
+                        <div class="pc-tech"><span>iOS</span><span>Wellness</span></div>
+                    </div>
+                </div>
+                <div class="project-card" style="--theme: linear-gradient(135deg, #f12711, #f5af19); --glow: #f12711;">
+                    <div class="view-btn"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="pc-content">
+                        <div class="pc-top"><span class="pc-badge">E-commerce</span><span class="pc-badge">2023</span></div>
+                        <div class="pc-mid"><h3>EcoMarket</h3><p>Sustainable shopping platform connecting eco-conscious consumers.</p></div>
+                        <div class="pc-tech"><span>React</span><span>Web</span></div>
+                    </div>
+                </div>
+                <div class="project-card" style="--theme: linear-gradient(135deg, #2193b0, #6dd5ed); --glow: #2193b0;">
+                    <div class="view-btn"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="pc-content">
+                        <div class="pc-top"><span class="pc-badge">Web App</span><span class="pc-badge">2023</span></div>
+                        <div class="pc-mid"><h3>TaskHub Pro</h3><p>Collaborative project management tool with Kanban boards.</p></div>
+                        <div class="pc-tech"><span>TypeScript</span><span>B2B</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container contact-grid">
+            <div class="contact-left">
+                <h2 style="font-size: 2.5rem; font-family: 'Syne'; margin-bottom: 20px;">Let's Work <span class="text-orange">Together</span></h2>
+                <p style="color:#888; margin-bottom: 40px;">I'm always excited to discuss new opportunities and creative ideas.</p>
+                <div class="contact-box">
+                    <div class="icon-box"><i class="fa-regular fa-envelope"></i></div>
+                    <div><span style="display:block; font-size:0.8rem; color:#666;">Email</span>aathikavin07@gmail.com</div>
+                </div>
+                <div class="contact-box">
+                    <div class="icon-box"><i class="fa-solid fa-map-pin"></i></div>
+                    <div><span style="display:block; font-size:0.8rem; color:#666;">Location</span>Coimbatore,Tamil Nadu</div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email Address">
+                <textarea rows="5" placeholder="Tell me about your project..."></textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 40px; color: #666; border-top: 1px solid #222;">
+        <p>Made with ❤️ by Aathi kavin © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
